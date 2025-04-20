@@ -1,4 +1,5 @@
 <script setup>
+// The i18n functions are kept in setup but won't be used in the template anymore
 const { locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
 
@@ -11,14 +12,14 @@ const availableLocales = computed(() => {
   <div class="min-h-screen flex flex-col">
     <header class="bg-white shadow-md">
       <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <NuxtLink :to="localePath('/')" class="text-2xl font-bold text-primary">{{ $t('site.title') }}</NuxtLink>
+        <NuxtLink :to="localePath('/')" class="text-2xl font-bold text-primary">Stand Against Deportation</NuxtLink>
         <div class="flex items-center space-x-6">
           <div class="hidden md:flex space-x-6">
-            <NuxtLink :to="localePath('/')" class="text-gray-700 hover:text-primary">{{ $t('nav.home') }}</NuxtLink>
-            <NuxtLink :to="localePath('/news')" class="text-gray-700 hover:text-primary">{{ $t('nav.news') }}</NuxtLink>
-            <NuxtLink :to="localePath('/actions')" class="text-gray-700 hover:text-primary">{{ $t('nav.actions') }}</NuxtLink>
-            <NuxtLink :to="localePath('/community')" class="text-gray-700 hover:text-primary">{{ $t('nav.community') }}</NuxtLink>
-            <NuxtLink :to="localePath('/about')" class="text-gray-700 hover:text-primary">{{ $t('nav.about') }}</NuxtLink>
+            <NuxtLink :to="localePath('/')" class="text-gray-700 hover:text-primary">Home</NuxtLink>
+            <NuxtLink :to="localePath('/news')" class="text-gray-700 hover:text-primary">News</NuxtLink>
+            <NuxtLink :to="localePath('/actions')" class="text-gray-700 hover:text-primary">Action Hub</NuxtLink>
+            <NuxtLink :to="localePath('/community')" class="text-gray-700 hover:text-primary">Community</NuxtLink>
+            <NuxtLink :to="localePath('/about')" class="text-gray-700 hover:text-primary">About Us</NuxtLink>
           </div>
           
           <div class="relative group">
@@ -51,28 +52,28 @@ const availableLocales = computed(() => {
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t('site.title') }}</h3>
-            <p>{{ $t('footer.description') }}</p>
+            <h3 class="text-xl font-bold mb-4">Stand Against Deportation</h3>
+            <p>Fighting for due process rights in U.S. immigration policy.</p>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t('footer.quickLinks') }}</h3>
+            <h3 class="text-xl font-bold mb-4">Quick Links</h3>
             <ul class="space-y-2">
-              <li><NuxtLink :to="localePath('/')" class="hover:text-primary-light">{{ $t('nav.home') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/news')" class="hover:text-primary-light">{{ $t('nav.news') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/actions')" class="hover:text-primary-light">{{ $t('nav.actions') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/community')" class="hover:text-primary-light">{{ $t('nav.community') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/about')" class="hover:text-primary-light">{{ $t('nav.about') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/privacy')" class="hover:text-primary-light">{{ $t('nav.privacy') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/')" class="hover:text-primary-light">Home</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/news')" class="hover:text-primary-light">News</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/actions')" class="hover:text-primary-light">Action Hub</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/community')" class="hover:text-primary-light">Community</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/about')" class="hover:text-primary-light">About Us</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/privacy')" class="hover:text-primary-light">Privacy</NuxtLink></li>
             </ul>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-4">{{ $t('footer.contact') }}</h3>
+            <h3 class="text-xl font-bold mb-4">Contact</h3>
             <p>Email: info@standagainstdeportation.org</p>
             <p>Phone: (555) 123-4567</p>
           </div>
         </div>
         <div class="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {{ new Date().getFullYear() }} {{ $t('site.title') }}. {{ $t('footer.rights') }}</p>
+          <p>&copy; {{ new Date().getFullYear() }} Stand Against Deportation. All rights reserved.</p>
         </div>
       </div>
     </footer>
