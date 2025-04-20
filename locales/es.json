@@ -1,0 +1,127 @@
+{
+  "site": {
+    "title": "Unidos Contra la Deportación",
+    "description": "Oponiéndonos a las políticas de deportación de EE.UU. que violan los derechos al debido proceso"
+  },
+  "nav": {
+    "home": "Inicio",
+    "news": "Noticias",
+    "actions": "Centro de Acción",
+    "community": "Comunidad",
+    "about": "Sobre Nosotros",
+    "privacy": "Privacidad"
+  },
+  "home": {
+    "hero": {
+      "title": "Unidos Contra la Deportación",
+      "description": "Nos oponemos a las políticas de deportación de EE.UU. que violan los derechos al debido proceso y separan a las familias. Únete a nuestro movimiento para abogar por políticas de inmigración justas y humanas.",
+      "action": "Tomar Acción",
+      "news": "Últimas Noticias"
+    },
+    "news": {
+      "title": "Últimas Noticias",
+      "viewAll": "Ver Todas las Noticias"
+    },
+    "actions": {
+      "title": "Toma Acción Ahora",
+      "seeAll": "Ver Todas las Acciones"
+    }
+  },
+  "news": {
+    "title": "Noticias y Actualizaciones",
+    "filter": "Filtrar por:",
+    "noResults": "No se encontraron noticias que coincidan con tu filtro.",
+    "readMore": "Leer más",
+    "readFull": "Leer artículo completo",
+    "share": "Compartir"
+  },
+  "actions": {
+    "title": "Centro de Acción",
+    "petitions": {
+      "title": "Firmar Peticiones",
+      "description": "Esta petición exige acción inmediata para detener las deportaciones injustas que violan los derechos al debido proceso. Tu firma es importante en nuestra lucha por la justicia.",
+      "sign": "Firmar esta Petición"
+    },
+    "legislators": {
+      "title": "Contacta a tus Legisladores",
+      "email": "Enviar Email",
+      "call": "Llamar a la Oficina"
+    }
+  },
+  "community": {
+    "title": "Comunidad",
+    "forum": {
+      "title": "Foro de Discusión",
+      "description": "Únete a la conversación sobre derechos de inmigración y debido proceso. Comparte tus pensamientos, experiencias e ideas para la acción.",
+      "threads": "Hilos Recientes",
+      "viewAll": "Ver Todos los Hilos",
+      "join": "Unirse a la Discusión"
+    },
+    "volunteer": {
+      "title": "Oportunidades para Voluntarios",
+      "description": "Necesitamos tu ayuda para marcar la diferencia. Regístrate como voluntario para nuestras campañas, eventos y esfuerzos de defensa.",
+      "signUp": "Registrarse como Voluntario",
+      "contact": "Contáctanos"
+    },
+    "share": {
+      "title": "Comparte Nuestro Mensaje",
+      "description": "Ayuda a difundir nuestro mensaje sobre la importancia del debido proceso en inmigración.",
+      "bluesky": "Compartir en Bluesky",
+      "twitter": "Compartir en X",
+      "facebook": "Compartir en Facebook"
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Unidos Contra la Deportación es una coalición de defensores, abogados y miembros de la comunidad dedicados a oponerse a las políticas de deportación de EE.UU. que violan los derechos al debido proceso. Creemos en un trato justo y humano para todas las personas en el sistema de inmigración."
+    },
+    "partners": {
+      "title": "Nuestros Socios",
+      "description": "Trabajamos con una red de organizaciones comprometidas con la justicia migratoria y los derechos humanos."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "¿Tienes preguntas o quieres involucrarte? Comunícate con nuestro equipo.",
+      "email": "Envíanos un Email",
+      "phone": "Llámanos"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última Actualización",
+    "introduction": "Esta Política de Privacidad describe cómo Unidos Contra la Deportación recopila, utiliza y comparte tu información personal cuando utilizas nuestro sitio web.",
+    "information": {
+      "title": "Información que Recopilamos",
+      "description": "Recopilamos información que nos proporcionas directamente, como cuando firmas una petición, contactas a un legislador o te registras como voluntario."
+    },
+    "use": {
+      "title": "Cómo Usamos tu Información",
+      "description": "Usamos tu información para proporcionar y mejorar nuestros servicios, comunicarnos contigo y cumplir con las obligaciones legales."
+    },
+    "sharing": {
+      "title": "Cómo Compartimos tu Información",
+      "description": "No vendemos tu información personal. Podemos compartir tu información con proveedores de servicios, socios y según lo requiera la ley."
+    },
+    "rights": {
+      "title": "Tus Derechos",
+      "description": "Tienes derecho a acceder, corregir o eliminar tu información personal. Contáctanos para ejercer estos derechos."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en privacy@standagainstdeportation.org."
+    }
+  },
+  "error": {
+    "title": "Página No Encontrada",
+    "description": "La página que estás buscando no existe o ha sido movida.",
+    "home": "Volver al Inicio"
+  },
+  "footer": {
+    "description": "Luchando por los derechos al debido proceso en la política de inmigración de EE.UU.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados."
+  }
+}

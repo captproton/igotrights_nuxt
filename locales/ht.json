@@ -1,0 +1,127 @@
+{
+  "site": {
+    "title": "Kanpe Kont Depòtasyon",
+    "description": "Nou kont politik depòtasyon Etazini ki vyole dwa pwosedi legal yo"
+  },
+  "nav": {
+    "home": "Akèy",
+    "news": "Nouvèl",
+    "actions": "Sant Aksyon",
+    "community": "Kominote",
+    "about": "Enfòmasyon",
+    "privacy": "Konfidansyalite"
+  },
+  "home": {
+    "hero": {
+      "title": "Kanpe Kont Depòtasyon",
+      "description": "Nou kont politik depòtasyon Etazini ki vyole dwa pwosedi legal yo epi separe fanmi yo. Vin jwenn mouvman nou an pou defann politik imigrasyon ki jis ak imen.",
+      "action": "Pran Aksyon",
+      "news": "Dènye Nouvèl"
+    },
+    "news": {
+      "title": "Dènye Nouvèl",
+      "viewAll": "Wè Tout Nouvèl"
+    },
+    "actions": {
+      "title": "Pran Aksyon Kounye a",
+      "seeAll": "Wè Tout Aksyon"
+    }
+  },
+  "news": {
+    "title": "Nouvèl ak Mizajou",
+    "filter": "Filtre pa:",
+    "noResults": "Pa gen atik nouvèl ki koresponn ak filtè ou a.",
+    "readMore": "Li plis",
+    "readFull": "Li atik konplè a",
+    "share": "Pataje"
+  },
+  "actions": {
+    "title": "Sant Aksyon",
+    "petitions": {
+      "title": "Siyen Petisyon",
+      "description": "Petisyon sa a mande aksyon imedya pou sispann depòtasyon ki vyole dwa pwosedi legal yo. Siyati ou enpòtan nan lit nou pou jistis.",
+      "sign": "Siyen Petisyon sa a"
+    },
+    "legislators": {
+      "title": "Kontakte Lejislatè ou yo",
+      "email": "Voye Imèl",
+      "call": "Rele Biwo a"
+    }
+  },
+  "community": {
+    "title": "Kominote",
+    "forum": {
+      "title": "Fowòm Diskisyon",
+      "description": "Patisipe nan konvèsasyon sou dwa imigrasyon ak pwosedi legal. Pataje panse ou, eksperyans ou, ak lide ou pou aksyon.",
+      "threads": "Sijè Resan",
+      "viewAll": "Wè Tout Sijè",
+      "join": "Patisipe nan Diskisyon an"
+    },
+    "volunteer": {
+      "title": "Opòtinite Volontè",
+      "description": "Nou bezwen èd ou pou fè yon diferans. Enskri pou fè volontè pou kanpay nou yo, evènman yo, ak efò defans nou yo.",
+      "signUp": "Enskri pou Volontè",
+      "contact": "Kontakte Nou"
+    },
+    "share": {
+      "title": "Pataje Mesaj Nou an",
+      "description": "Ede gaye pawòl la sou misyon nou ak enpòtans pwosedi legal nan imigrasyon.",
+      "bluesky": "Pataje sou Bluesky",
+      "twitter": "Pataje sou X",
+      "facebook": "Pataje sou Facebook"
+    }
+  },
+  "about": {
+    "title": "Enfòmasyon sou Nou",
+    "mission": {
+      "title": "Misyon Nou",
+      "description": "Kanpe Kont Depòtasyon se yon koalisyon defansè, avoka, ak manm kominote ki dedye pou opoze politik depòtasyon Etazini ki vyole dwa pwosedi legal yo. Nou kwè nan tretman jis ak imen pou tout moun nan sistèm imigrasyon an."
+    },
+    "partners": {
+      "title": "Patnè Nou yo",
+      "description": "Nou travay ak yon rezo òganizasyon ki angaje nan jistis imigrasyon ak dwa moun."
+    },
+    "contact": {
+      "title": "Kontakte Nou",
+      "description": "Ou gen kesyon oswa ou vle patisipe? Kontakte ekip nou an.",
+      "email": "Voye Imèl",
+      "phone": "Rele Nou"
+    }
+  },
+  "privacy": {
+    "title": "Politik Konfidansyalite",
+    "lastUpdated": "Dènye Mizajou",
+    "introduction": "Politik Konfidansyalite sa a dekri kijan Kanpe Kont Depòtasyon kolekte, itilize, ak pataje enfòmasyon pèsonèl ou lè ou itilize sit entènèt nou an.",
+    "information": {
+      "title": "Enfòmasyon Nou Kolekte",
+      "description": "Nou kolekte enfòmasyon ou bay nou dirèkteman, tankou lè ou siyen yon petisyon, kontakte yon lejislatè, oswa enskri pou volontè."
+    },
+    "use": {
+      "title": "Kijan Nou Itilize Enfòmasyon Ou",
+      "description": "Nou itilize enfòmasyon ou pou bay ak amelyore sèvis nou yo, kominike avèk ou, ak respekte obligasyon legal yo."
+    },
+    "sharing": {
+      "title": "Kijan Nou Pataje Enfòmasyon Ou",
+      "description": "Nou pa vann enfòmasyon pèsonèl ou. Nou ka pataje enfòmasyon ou ak founisè sèvis, patnè, ak jan lalwa mande."
+    },
+    "rights": {
+      "title": "Dwa Ou yo",
+      "description": "Ou gen dwa pou aksede, korije, oswa efase enfòmasyon pèsonèl ou. Kontakte nou pou egzèse dwa sa yo."
+    },
+    "contact": {
+      "title": "Kontakte Nou",
+      "description": "Si ou gen nenpòt kesyon sou Politik Konfidansyalite sa a, tanpri kontakte nou nan privacy@standagainstdeportation.org."
+    }
+  },
+  "error": {
+    "title": "Paj Pa Jwenn",
+    "description": "Paj ou ap chèche a pa egziste oswa li te deplase.",
+    "home": "Retounen nan Akèy"
+  },
+  "footer": {
+    "description": "N ap goumen pou dwa pwosedi legal nan politik imigrasyon Etazini.",
+    "quickLinks": "Lyen Rapid",
+    "contact": "Kontak",
+    "rights": "Tout dwa rezève."
+  }
+}

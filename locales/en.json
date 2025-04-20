@@ -1,0 +1,127 @@
+{
+  "site": {
+    "title": "Stand Against Deportation",
+    "description": "Opposing U.S. deportation policies that violate due process rights"
+  },
+  "nav": {
+    "home": "Home",
+    "news": "News",
+    "actions": "Action Hub",
+    "community": "Community",
+    "about": "About Us",
+    "privacy": "Privacy"
+  },
+  "home": {
+    "hero": {
+      "title": "Stand Against Deportation",
+      "description": "We oppose U.S. deportation policies that violate due process rights and tear families apart. Join our movement to advocate for fair and humane immigration policies.",
+      "action": "Take Action",
+      "news": "Latest News"
+    },
+    "news": {
+      "title": "Latest News",
+      "viewAll": "View All News"
+    },
+    "actions": {
+      "title": "Take Action Now",
+      "seeAll": "See All Actions"
+    }
+  },
+  "news": {
+    "title": "News & Updates",
+    "filter": "Filter by:",
+    "noResults": "No news items found matching your filter.",
+    "readMore": "Read more",
+    "readFull": "Read full article",
+    "share": "Share"
+  },
+  "actions": {
+    "title": "Action Hub",
+    "petitions": {
+      "title": "Sign Petitions",
+      "description": "This petition calls for immediate action to stop unjust deportations that violate due process rights. Your signature matters in our fight for justice.",
+      "sign": "Sign this Petition"
+    },
+    "legislators": {
+      "title": "Contact Your Legislators",
+      "email": "Email Now",
+      "call": "Call Office"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "forum": {
+      "title": "Discussion Forum",
+      "description": "Join the conversation about immigration rights and due process. Share your thoughts, experiences, and ideas for action.",
+      "threads": "Recent Threads",
+      "viewAll": "View All Threads",
+      "join": "Join the Discussion"
+    },
+    "volunteer": {
+      "title": "Volunteer Opportunities",
+      "description": "We need your help to make a difference. Sign up to volunteer for our campaigns, events, and advocacy efforts.",
+      "signUp": "Sign Up to Volunteer",
+      "contact": "Contact Us"
+    },
+    "share": {
+      "title": "Share Our Message",
+      "description": "Help spread the word about our mission and the importance of due process in immigration.",
+      "bluesky": "Share on Bluesky",
+      "twitter": "Share on X",
+      "facebook": "Share on Facebook"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Stand Against Deportation is a coalition of advocates, lawyers, and community members dedicated to opposing U.S. deportation policies that violate due process rights. We believe in fair and humane treatment for all individuals in the immigration system."
+    },
+    "partners": {
+      "title": "Our Partners",
+      "description": "We work with a network of organizations committed to immigration justice and human rights."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Have questions or want to get involved? Reach out to our team.",
+      "email": "Email Us",
+      "phone": "Call Us"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "introduction": "This Privacy Policy describes how Stand Against Deportation collects, uses, and shares your personal information when you use our website.",
+    "information": {
+      "title": "Information We Collect",
+      "description": "We collect information you provide directly to us, such as when you sign a petition, contact a legislator, or sign up to volunteer."
+    },
+    "use": {
+      "title": "How We Use Your Information",
+      "description": "We use your information to provide and improve our services, communicate with you, and comply with legal obligations."
+    },
+    "sharing": {
+      "title": "How We Share Your Information",
+      "description": "We do not sell your personal information. We may share your information with service providers, partners, and as required by law."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "description": "You have the right to access, correct, or delete your personal information. Contact us to exercise these rights."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about this Privacy Policy, please contact us at privacy@standagainstdeportation.org."
+    }
+  },
+  "error": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "home": "Return to Home"
+  },
+  "footer": {
+    "description": "Fighting for due process rights in U.S. immigration policy.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}
