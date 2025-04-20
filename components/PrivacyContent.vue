@@ -31,7 +31,7 @@
     <section>
       <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
       <p class="text-gray-600">
-        If you have any questions about this Privacy Policy, please contact us at privacy@standagainstdeportation.org.
+        If you have any questions about this Privacy Policy, please contact us at privacy [at] standagainstdeportation.org.
       </p>
     </section>
   </div>

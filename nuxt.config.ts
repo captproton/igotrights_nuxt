@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n',
+    // '@nuxtjs/i18n', // Disabled due to parsing issues
   ],
 
   app: {
@@ -22,6 +22,8 @@ export default defineNuxtConfig({
     }
   },
 
+  // i18n configuration is commented out
+  /*
   i18n: {
     locales: [
       {
@@ -50,6 +52,7 @@ export default defineNuxtConfig({
       redirectOn: 'root'
     }
   },
+  */
 
   nitro: {
     preset: 'netlify'

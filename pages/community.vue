@@ -41,7 +41,7 @@ const formatDate = (timestamp) => {
             <a href="#" class="text-primary hover:text-primary-dark">
               View All Threads
             </a>
-            <a href="mailto:forum@standagainstdeportation.org" class="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition">
+            <a href="#" class="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition">
               Join the Discussion
             </a>
           </div>
@@ -61,7 +61,7 @@ const formatDate = (timestamp) => {
             <a href="https://forms.google.com/volunteer-signup" target="_blank" class="inline-block px-6 py-3 bg-primary text-white rounded-md hover:bg-primary-dark transition text-center">
               Sign Up to Volunteer
             </a>
-            <a href="mailto:volunteer@standagainstdeportation.org" class="inline-block px-6 py-3 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition text-center">
+            <a href="#" class="inline-block px-6 py-3 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition text-center">
               Contact Us
             </a>
           </div>

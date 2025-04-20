@@ -18,7 +18,7 @@ const { data: topActions } = await useFetch('/api/petitions?limit=2');
           />
         </div>
         <div class="text-center mt-8">
-          <NuxtLink :to="localePath('/news')" class="inline-block px-6 py-3 bg-primary text-white rounded-md hover:bg-primary-dark transition">
+          <NuxtLink to="/news" class="inline-block px-6 py-3 bg-primary text-white rounded-md hover:bg-primary-dark transition">
             View All News
           </NuxtLink>
         </div>
@@ -36,7 +36,7 @@ const { data: topActions } = await useFetch('/api/petitions?limit=2');
           />
         </div>
         <div class="text-center mt-8">
-          <NuxtLink :to="localePath('/actions')" class="inline-block px-6 py-3 bg-secondary text-white rounded-md hover:bg-secondary-dark transition">
+          <NuxtLink to="/actions" class="inline-block px-6 py-3 bg-secondary text-white rounded-md hover:bg-secondary-dark transition">
             See All Actions
           </NuxtLink>
         </div>
