@@ -1,0 +1,19 @@
+# Nuxt directories
+.nuxt
+.output
+dist
+
+# Node modules
+node_modules
+
+# Log files
+*.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

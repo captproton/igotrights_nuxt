@@ -6,7 +6,6 @@ A Static Site Generation (SSG) web app using Nuxt.js to oppose U.S. deportation 
 
 - News feed from Bluesky/NewsAPI
 - Advocacy tools (petitions, legislator contacts)
-- Multilingual support (English, Spanish, Haitian Creole)
 - Community engagement features (forum, volunteer opportunities)
 - Static site generation for fast loading and SEO benefits
 - Responsive design with Tailwind CSS
@@ -25,16 +24,27 @@ npm run generate
 
 # Preview production build
 npm run preview
+
+# Run linting
+npm run lint
+
+# Run type checking
+npm run typecheck
+
+# Run tests
+npm run test
 ```
 
-## Multilingual Support
+## CI/CD
 
-The app supports three languages:
-- English (default)
-- Spanish
-- Haitian Creole
+This project uses GitHub Actions for continuous integration. The following checks are run on each push and pull request:
 
-Language files are located in the `locales` directory. The app uses Nuxt i18n for internationalization.
+1. **Linting**: ESLint checks for code quality and style issues
+2. **Type Checking**: TypeScript type checking with `nuxi typecheck`
+3. **Testing**: Unit tests with Vitest
+4. **Build**: Ensures the project builds correctly
+
+The CI workflow is defined in `.github/workflows/ci.yml`.
 
 ## Project Structure
 
@@ -44,6 +54,17 @@ Language files are located in the `locales` directory. The app uses Nuxt i18n fo
 - `layouts/`: Page layouts
 - `locales/`: Translation files
 - `public/`: Static assets
+- `tests/`: Unit tests
+- `.github/workflows/`: CI/CD configuration
+
+## Multilingual Support
+
+The app supports three languages:
+- English (default)
+- Spanish
+- Haitian Creole
+
+Language files are located in the `locales` directory.
 
 ## Mock Data
 
