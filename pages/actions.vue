@@ -1,4 +1,11 @@
 <script setup>
+definePageMeta({
+  pageTransition: {
+    name: 'scale',
+    mode: 'out-in'
+  }
+});
+
 const { data: petitions } = await useFetch('/api/petitions');
 const { data: legislators } = await useFetch('/api/legislators');
 </script>
