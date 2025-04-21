@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-2xl font-bold mb-4">{{ $t('about.partners.title') }}</h2>
+    <h2 class="text-2xl font-bold mb-4">Our Partners</h2>
     <p class="text-gray-600 mb-6">
-      {{ $t('about.partners.description') }}
+      We work with a network of organizations committed to immigration justice and human rights.
     </p>
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
