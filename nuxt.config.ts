@@ -8,7 +8,15 @@ export default defineNuxtConfig({
     // Removed i18n module as it's not working and we're using static text instead
   ],
 
+  css: [
+    '@/assets/css/transitions.css'
+  ],
+
   app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in'
+    },
     head: {
       title: 'Stand Against Deportation',
       meta: [

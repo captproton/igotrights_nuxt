@@ -1,4 +1,11 @@
 <script setup>
+definePageMeta({
+  pageTransition: {
+    name: 'slide-left',
+    mode: 'out-in'
+  }
+});
+
 const { data: newsItems } = await useFetch('/api/news');
 const activeFilter = ref('#DueProcess');
 
