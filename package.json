@@ -23,7 +23,7 @@
     "@nuxt/devtools": "^1.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@vitejs/plugin-vue": "^4.4.1",
+    "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.1",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.54.0",
@@ -31,5 +31,11 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "vitest": "^0.34.6"
+  },
+  "overrides": {
+    "vue": "^3.3.4"
+  },
+  "resolutions": {
+    "vue": "^3.3.4"
   }
 }
