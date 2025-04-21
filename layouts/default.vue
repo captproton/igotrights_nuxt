@@ -1,6 +1,5 @@
 <script setup>
-// The i18n functions have been removed as we've disabled i18n
-// We'll use plain string URLs instead of localePath
+// Removed i18n related code since we're using static text now
 </script>
 
 <template>
@@ -17,7 +16,7 @@
             <NuxtLink to="/about" class="text-gray-700 hover:text-primary">About Us</NuxtLink>
           </div>
           
-          <!-- Language selector removed as i18n is disabled -->
+          <!-- Removed language selector since i18n is not working -->
         </div>
       </nav>
     </header>
@@ -46,7 +45,7 @@
           </div>
           <div>
             <h3 class="text-xl font-bold mb-4">Contact</h3>
-            <p>Email: info [at] standagainstdeportation.org</p>
+            <p>Email: info@standagainstdeportation.org</p>
             <p>Phone: (555) 123-4567</p>
           </div>
         </div>

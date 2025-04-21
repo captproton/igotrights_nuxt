@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
-    // '@nuxtjs/i18n', // Disabled due to parsing issues
+    // Removed i18n module as it's not working and we're using static text instead
   ],
 
   app: {
@@ -22,37 +22,7 @@ export default defineNuxtConfig({
     }
   },
 
-  // i18n configuration is commented out
-  /*
-  i18n: {
-    locales: [
-      {
-        code: 'en',
-        name: 'English',
-        file: 'en.json'
-      },
-      {
-        code: 'es',
-        name: 'Español',
-        file: 'es.json'
-      },
-      {
-        code: 'ht',
-        name: 'Kreyòl Ayisyen',
-        file: 'ht.json'
-      }
-    ],
-    lazy: true,
-    langDir: 'locales/',
-    defaultLocale: 'en',
-    strategy: 'prefix_except_default',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    }
-  },
-  */
+  // Removed i18n configuration as we're using static text instead
 
   nitro: {
     preset: 'netlify'
