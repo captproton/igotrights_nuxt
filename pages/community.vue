@@ -1,4 +1,11 @@
 <script setup>
+definePageMeta({
+  pageTransition: {
+    name: 'scale',
+    mode: 'out-in'
+  }
+});
+
 const { data: forumThreads } = await useFetch('/api/forum');
 
 const formatDate = (timestamp) => {
